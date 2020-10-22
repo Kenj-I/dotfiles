@@ -1,4 +1,6 @@
 [user]
+	name =
+	email =
 	# nameも使い分けてるので.gitconfig.localに書く
 	# emailも.gitconfig.localに書く
 	# スパム対策のため。
@@ -21,7 +23,7 @@
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 
 [mergetool "sourcetree"]
 

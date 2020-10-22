@@ -227,10 +227,11 @@ esac
 
 
 #Git
+	alias g='git'
 
 	alias graph="log --graph --date-order --all --pretty=format:'%h %Cred%d %Cgreen%ad %Cblue%cn %Creset%s' --date=short"
+	alias gcb="branch | sed -n -e 's/^\* \(.*\)/\1/p'" # echo current branch name
 
-	alias g='git'
 	alias gg='git graph'
 	alias gl='git log'
 	alias gs='git status'
